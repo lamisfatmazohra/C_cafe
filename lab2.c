@@ -1,4 +1,6 @@
 #include<stdio.h>
+#include<math.h>
+
 
 int main(){
 	int n,i;
@@ -28,5 +30,19 @@ int main(){
 		
 			
 	}
-	printf("=%d",s);
+	printf("=%d\n",s);
+	
+	// exercice 2
+	
+	int x;
+	for(i=0;i<=1000;i++){
+		s=0;
+		x=i;
+		while (x!=0){
+			s=s+pow(x%10,3);
+			x=x/10;
+		}
+		if(s==i)
+			printf("%d est amstrong\n",i);
+	}
 }
