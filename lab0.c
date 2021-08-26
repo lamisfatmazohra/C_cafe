@@ -4,7 +4,7 @@ int main()
 {
     int a=5;
     float b=2.5;
-    printf("la valeur de a est %d, est la valeur de b est %.2f\n",a,b);
+    printf("la valeur de a est %d, et la valeur de b est %.2f\n",a,b);
     
     float pied=5.3;
     printf("donnez un nombre reel");
