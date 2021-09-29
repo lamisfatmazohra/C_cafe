@@ -68,6 +68,8 @@ int main(){
 	scanf("%d",&nbr);
 	printf("donnez le numero d'examen 0 pour code 1 pour creneau 2 pour conduite");
 	scanf("%d",&numd);
+	printf("donnez le numero d'examen 0 pour code 1 pour creneau 2 pour conduite");
+	scanf("%d",&numd);
 	if(passerexamen(frais,nbr,numd)==true)
 		printf("le condidateur a le droit de passer l'examen\n");
 	else
@@ -80,6 +82,8 @@ int main(){
 	cand.montantr=0;
 	printf("donnez le nombre de seance");
 	scanf("%d",&nbr);
+	printf("donnez le numero d'examen 0 pour code 1 pour creneau 2 pour conduite");
+	scanf("%d",&numd);
 	printf("donnez le numero d'examen 0 pour code 1 pour creneau 2 pour conduite");
 	scanf("%d",&numd);
 	if(passerexamen(frais,nbr,numd)==true)
