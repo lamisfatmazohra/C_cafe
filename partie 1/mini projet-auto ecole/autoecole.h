@@ -3,7 +3,7 @@
 struct examen{
 	char nom[10];
 	int frais;
-	bool reussi;
+	int reussi;
 
 };
 typedef struct examen examen;
